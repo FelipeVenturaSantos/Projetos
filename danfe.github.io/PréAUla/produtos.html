@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema Administrativo - Produtos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="projeto.css">
+
+</head>
+<body>
+
+	<div id="tabela" align="center">
+		<div>
+		<table>
+			<td class="tab"><a href="venda.html">VENDAS</a></td>
+			<td class="local"><a href="">PRODUTOS</a></td>
+			<td class="tab"><a href="Clientes.html">CLIENTES</a></td>
+		</table>
+	</div>
+
+		<div>
+			<form class="corpo" action="../index.html" method="post">
+		<div class="texto">
+			CÓDIGO: <input type="text" name="txtid" placeholder="PROGRAMA NÃO ->	" required> &nbsp; &nbsp; 
+			NOME PRODUTO: <input type="text" name="txtdesc" placeholder="FUNCIONAL" >&nbsp; &nbsp; 
+			PREÇO: <input type="text" name="txtpreco" placeholder="APENAS FRONT END" >&nbsp; &nbsp;<br><br>
+		</div>
+			<h3 align="center">LISTA DE PRODUTOS CADASTRADOS:</h3>
+
+			<table>
+				<td><img src="imgsite.png"></td>
+			</table>
+
+			<br><br><div class="texto">
+			BUSCAR ITEM: 
+			<input type="text" name="buscaItem" placeholder="Pesquisar por um item"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			</div>
+			<div class="botoes">
+			<br><br>
+			<input type="submit" name="btnoperacao" value="VOLTAR">
+			<input type="submit" name="btnoperacao" value="Cadastrar">
+            <input type="submit" name="btnoperacao" value="Delete">
+            <input type="submit" name="btnoperacao" value="Atualizar">
+            <input type="submit" name="btnoperacao" value="Consultar Item">
+            <input type="submit" name="btnoperacao" value="Consultar Todos">
+        </div>
+       
+            
+		</form>
+		</div>
+
+	</div>
+
+</body>
+</html>

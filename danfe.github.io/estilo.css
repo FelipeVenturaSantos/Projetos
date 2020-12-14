@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #f0f0f0;
+
+}
+
+#container{
+	
+	width: 920px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 5px black;
+}
+
+#miniatura{
+	float: right;
+	margin: -3px;
+}
+
+p>img{
+	width: 645px;
+	height: 410px;
+	margin: -20px;
+}
+
+#logo{
+	text-align: center;
+	background: #69001d;
+	padding: 15px;
+	color: #fff;
+	box-shadow: 1px 1px 5px #69001d;	
+}
+
+#titulo{
+	font-size: 1.3em;
+	color: #fff;
+	letter-spacing: 0.3em;
+}
+
+ #menu, #titulo{
+ 		padding: 15px;
+ }
+
+ .men{
+ 	text-decoration: none;
+ 	margin: 10px;
+ 	color: #fff;
+ 	padding: 7px;
+ 	font-size: 1.1em;
+ 	font-weight: bolder;
+ }
+
+ .men:hover{
+ 	color: #fff;
+ 	background: red;
+ }
+
+ #corpo{
+ 		width: 890px;
+ 		margin: 0 auto;
+ 		padding: 15px;
+ 		background: white;	
+ }
+
+ .lat{
+	font-size: 0.8em;
+	padding: 5px;
+	background: #fff;
+	
+}
+
+.fundo{
+	background: #dedede;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.table:hover{
+		color: #fff;
+		font-weight: bolder;
+		background: #69001d;
+}
+
+h3{
+	color: #fff;
+	background: #565656;
+	padding: 5px;
+}
+
+li{
+	list-style-type: none;
+}
+
+.ref{
+	text-decoration: none;
+	font-size: 1.4em;
+	background: url('Imagens/menu.png') no-repeat left top;
+	display: block;
+	padding: 15px;
+	margin: 6px;
+	line-height: 10px;
+	width: 170px;
+	text-align: center;
+	color: black;
+}
+
+.ref:hover{
+	background: url('Imagens/menu.png') no-repeat right top;
+}
+
+.post{
+	
+	padding: 20px;
+	margin-bottom: 20px;
+
+}
+
+.data{
+	font-size: 0.8em;
+	margin-bottom: 10px;
+	display: block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+ #postagem{
+ 	float: left;
+ 	width: 645px;
+
+ }
+
+ #rodape{
+ 	clear: both;
+ 	text-align: center;
+
+ }
+
+ #menulat{
+ 	float: right;
+ 	width: 225px;
+
+ }
+
+ td{
+ 	border: 3px solid black;
+ 	width: 290px;
+ 	padding: 2px;
+ }
+
+td.swot{
+	font-size: 1.5em;
+	border: 3px solid black;
+	letter-spacing: 2px;
+	background: #565656;
+	color: #fff;
+}

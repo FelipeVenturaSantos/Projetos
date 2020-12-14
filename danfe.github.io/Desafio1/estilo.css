@@ -1,0 +1,65 @@
+#fundo{
+	background-image: url('imagens/fundo.png');
+	width: 900px;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: auto;	
+	text-align: center;
+}
+
+
+.container{
+
+box-shadow: 1px 1px 5px black;	
+
+}
+
+.menu{
+
+	font-weight: bold;
+	font-size: 15px;
+	color: #708398;
+	text-decoration: none;
+	padding: 25px;
+	background-color: #CEC2B4;
+	text-align: center;
+
+}
+
+a{
+	margin: 15px;
+	padding: 5px;
+	text-decoration: none;
+	color: #708398;
+}
+
+.sobre{
+
+	background: #f2f2f2;
+	padding: 15px;
+
+}
+
+h2{
+	text-align: center;
+	color: #CEC2B4;
+
+}
+
+.reservados{
+
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.Campanhas{
+	background: #f2f2f2;
+	padding: 15px;
+}
+
+.tabela{
+	
+	border: 15px groove #CEC2B4;
+}
